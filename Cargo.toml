@@ -1,0 +1,15 @@
+[package]
+name = "gnews"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Top ten Google News results in your terminal"
+
+[dependencies]
+anyhow = "1.0.104"
+clap = { version = "4.6.7", features = ["derive"] }
+httpdate = "1.0.3"
+open = "5.4.5"
+ratatui = "0.30.2"
+rss = { version = "2.1.2", default-features = false }
+ureq = "3.5.2"
